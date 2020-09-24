@@ -46,7 +46,7 @@ c = input("""¿Cuántos campeonatos de liga a ganado Xelajú?
 1. 2 Lunas
 2. 3 Lunas
 3. 5 Lunas
-4. 1Luna
+4. 4 Lunas
 """)
 c= int(c)
 if c == 3:
@@ -107,11 +107,11 @@ else:
     cont=cont
 clear() 
 sleep(1)
-h = input("""¿Cuántas victorias tiene Xelajú en la liga?
-1. * 
-2. *
-3. *
-4. *
+h = input("""¿Cuál era el nombre del Estadio Mario Camposeco antes de llamaras así?
+1. Carlos Salazar Hijo
+2. Escolar
+3. Julian Tesucun 
+4. Mateo Flores
 """)
 h= int(h)
 if h == 2:
@@ -186,5 +186,4 @@ elif (cont < 50  and cont >= 25) and (gen == 'Masculino' or gen == 'MASCULINO' o
     print(str(name) + ' sos un Superchivo de momentos') 
 elif cont < 25  and (gen == 'Masculino' or gen == 'MASCULINO' or gen == 'masculino'):
     print(str(name) + ' sos un Superchivo infiel')
-#Para que cuando lo compile el inge le funcione
 input('')
